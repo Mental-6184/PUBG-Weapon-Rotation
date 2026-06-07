@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUBG武器幸运转盘</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎮 PUBG武器幸运转盘</h1>
+
+      <div class="selection-panel">
+        <h2>🔫 选择武器类型</h2>
+        <div id="weapon-types"></div>
+        <div class="control-buttons">
+          <button id="select-all">✅ 全选</button>
+          <button id="deselect-all">❌ 清空</button>
+          <button id="sound-toggle">🔊 音效开</button>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <!-- 左侧转盘区域 -->
+        <div class="left-panel">
+          <div class="wheel-container">
+            <div class="wheel-pointer"></div>
+            <canvas id="wheel" width="500" height="500"></canvas>
+          </div>
+          <button id="spin-btn">🎯 开始旋转</button>
+
+          <div class="result-panel">
+            <h2>🏆 抽取结果</h2>
+            <div id="result">请选择武器类型并点击旋转</div>
+          </div>
+        </div>
+
+        <!-- 右侧历史记录区域 -->
+        <div class="right-panel">
+          <h2>📜 历史记录</h2>
+          <div class="history-controls">
+            <!-- 清除历史记录按钮将通过JavaScript动态添加 -->
+          </div>
+          <ul id="history-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
