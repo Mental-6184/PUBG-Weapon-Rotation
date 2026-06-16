@@ -1,6 +1,6 @@
 # PUBG 武器幸运转盘 🎯
 
-一个基于 **Spring Boot** + **原生前端**（HTML/CSS/JavaScript）的 PUBG 武器随机抽取 Web 应用。用户可以选择武器类型，通过转盘动画随机抽取 PUBG 武器，并查看抽取历史记录。已部署上线，可通过URL< https://pubg.mentalczh66.xyz >进行访问。
+一个基于 **Spring Boot** + **原生前端**（HTML/CSS/JavaScript）的 PUBG 武器随机抽取 Web 应用。用户可以选择武器类型，通过转盘动画随机抽取 PUBG 武器，并查看抽取历史记录。已部署上线，可通过URL<https://pubg.mentalczh66.xyz>进行访问。
 
 ## 功能特性
 
